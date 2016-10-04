@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 01, 2016 at 12:26 PM
+-- Generation Time: Oct 04, 2016 at 12:19 PM
 -- Server version: 10.1.13-MariaDB
 -- PHP Version: 7.0.8
 
@@ -38,14 +38,16 @@ CREATE TABLE `gallery` (
 --
 
 INSERT INTO `gallery` (`GalleryId`, `GalleryName`, `Image`, `Status`) VALUES
-(144, 'GalleryOne', 'twitter-icon.png', NULL),
-(145, 'GalleryOne', 'twitter-social-network-icon.png', NULL),
-(146, 'GalleryTwo', 'AAEAAQAAAAAAAANyAAAAJGRlZTNlZDQwLTk4YTItNDA1MS04MzBjLWJmNGQ5M2RmZGUxYw.png', NULL),
-(147, 'GalleryTwo', 'facebook-social-network-icon-250x250.png', NULL),
-(148, 'GalleryThree', 'twitter-icon.png', NULL),
-(149, 'GalleryThree', 'twitter-social-network-icon.png', NULL),
-(150, 'GalleryThree', 'facebook-social-network-icon-250x250.png', NULL),
-(151, 'GalleryFour', 'LatestUpdate2.jpg', NULL);
+(208, 'GalleryOne', 'skype-icon.png', NULL),
+(209, 'GalleryOne', 'Social Networks linkedin.png', NULL),
+(210, 'GalleryOne', 'twitter-icon.png', NULL),
+(211, 'GalleryOne', 'twitter-social-network-icon.png', NULL),
+(212, 'GalleryOne', '8skype-icon.png', NULL),
+(213, 'GalleryTwo', '8skype-icon.png', NULL),
+(214, 'GalleryTwo', '10Social Networks linkedin.png', NULL),
+(215, 'GalleryFour', '7skype-icon.png', NULL),
+(216, 'GalleryFour', '7Social Networks linkedin.png', NULL),
+(217, 'GalleryTwo', '888skype-icon.png', NULL);
 
 -- --------------------------------------------------------
 
@@ -92,7 +94,7 @@ ALTER TABLE `galleryinfotable`
 -- AUTO_INCREMENT for table `gallery`
 --
 ALTER TABLE `gallery`
-  MODIFY `GalleryId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=152;
+  MODIFY `GalleryId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=218;
 --
 -- AUTO_INCREMENT for table `galleryinfotable`
 --
